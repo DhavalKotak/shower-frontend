@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.jumbotron{
+  text-align: center;
+  background-color: #17a2b8;
+  padding: 4.4em;
+}
+a, .navbar-brand, .navbar-nav .nav-link {
+  color: #bbb;
+}
+
+img{
+  width: 40px;
+  height: 40px;
+}
+
+input{
+  width: 40%;
+}
+
+.login , .register{
+  padding: 3em;
+  background: linear-gradient(to bottom right, #17a2b8 50%,#418c88 50% );
+  text-align: center;
+}
+b{
+  font-size: 1.2rem;
+}
