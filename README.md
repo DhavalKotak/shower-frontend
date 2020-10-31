@@ -6,6 +6,8 @@ This is a web application where you can listen to songs and add them to playlist
 
 It uses a NodeJS REST API that I made which is deployed on [Heroku](https://www.heroku.com)
 
+Helping Guy: [Charitya1602](https://github.com/charitya1602)
+
 ## Technologies Used:
 
 ### Frontend
