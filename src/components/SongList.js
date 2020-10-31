@@ -23,7 +23,7 @@ class SongList extends Component {
             this.setState({
                 loading: true
             })
-            fetch(`http://localhost:4000/play?song=${this.props.song.song_name}`)
+            fetch(`https://shower-backend.herokuapp.com/play?song=${this.props.song.song_name}`)
             .then(data => data.arrayBuffer())
             .then(arrayBuffer => ctx.decodeAudioData(arrayBuffer))
             .then(decodeAudioData => {

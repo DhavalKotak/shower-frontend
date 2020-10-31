@@ -6,7 +6,7 @@ class Header extends Component{
     constructor() {
         super()
         this.state = {songData: null}
-        fetch("http://localhost:4000/songs")
+        fetch("https://shower-backend.herokuapp.com/songs")
           .then(async data => {
              let res = await data.json()
             const songData = res.map(song => <SongList key={song.song_id} song={song}/>)
