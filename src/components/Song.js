@@ -12,7 +12,8 @@ class Songs extends Component {
         this.state = {
             loading : false,
             play : false,
-            ctx: null
+            ctx: null,
+            show: true
         }
     }
     playSong = () => {
@@ -71,7 +72,7 @@ class Songs extends Component {
                 break
             }
         }
-        window.location.reload()
+        window.location.replace("https://dhavalkotak.github.io/shower-frontend/")
     }
 
     render(){
