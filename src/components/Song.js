@@ -72,6 +72,7 @@ class Songs extends Component {
                 break
             }
         }
+        window.location.reload()
     }
 
     render(){
