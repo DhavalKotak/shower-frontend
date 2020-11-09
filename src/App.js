@@ -15,6 +15,7 @@ class App extends Component {
                 <Route exact path="/" component={Header}/>
                 <Route path="/playlist" component={PlayList}/>
                 <Route path="/about" component={About}/>
+                <Route component={Header}/>
               </Switch>
             </Router>
         </React.Fragment>

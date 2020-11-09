@@ -72,7 +72,6 @@ class Songs extends Component {
                 break
             }
         }
-        window.location.replace("https://dhavalkotak.github.io/shower-frontend/")
     }
 
     render(){
